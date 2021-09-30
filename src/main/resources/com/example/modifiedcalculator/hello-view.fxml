@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.modifiedcalculator.HelloController">
+   <children>
+      <Label layoutX="117.0" layoutY="14.0" prefHeight="49.0" prefWidth="366.0" text="CALCULATOR" textFill="#6c376e">
+         <font>
+            <Font name="Bank Gothic Medium BT" size="46.0" />
+         </font>
+      </Label>
+      <Label layoutX="103.0" layoutY="84.0" text="Number 1">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="100.0" layoutY="134.0" text="Number 2">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="number1" layoutX="350.0" layoutY="85.0" />
+      <TextField fx:id="number2" layoutX="350.0" layoutY="136.0" />
+      <Label layoutX="114.0" layoutY="187.0" text="Answer">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="answer" layoutX="350.0" layoutY="188.0" />
+      <Button layoutX="99.0" layoutY="255.0" mnemonicParsing="false" onAction="#onADDButtonClick" prefHeight="25.0" prefWidth="107.0" text="add" />
+      <Button layoutX="101.0" layoutY="323.0" mnemonicParsing="false" onAction="#onMULTIPLYButtonClick" prefHeight="27.0" prefWidth="107.0" text="multiply" />
+      <Button layoutX="398.0" layoutY="255.0" mnemonicParsing="false" onAction="#onSUBTRACTButtonClick" prefHeight="27.0" prefWidth="94.0" text="sub" />
+      <Button layoutX="398.0" layoutY="323.0" mnemonicParsing="false" onAction="#onDIVISIONButtonClick" prefHeight="27.0" prefWidth="94.0" text="divide" />
+   </children>
+</Pane>
